@@ -13,9 +13,7 @@ We decouple diffusion transformer into encoder-decoder design, and surprisingly 
 * We achieves **1.26 FID** on ImageNet256x256 Benchmark with DDT-XL/2(22en6de).
 * We achieves **1.28 FID** on ImageNet512x512 Benchmark with DDT-XL/2(22en6de).
 * As a byproduct, our DDT can reuse encoder among adjacent steps to accelerate inference.
-## Update 5/6/2025
-* PixelDDT-XXL/16-R1024-T2I achieves **66.7** without prompt rewriting and **71.2** with prompt rewriting on GenEval benchmark
-* Pixel space Text-to-image models(PixelDDT-XXL/16) will be released soon.
+
 ## Visualizations
 ![](./figs/teaser.png)
 ## Checkpoints
